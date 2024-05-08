@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1 forms</title>
+
+  <meta name="description" content="Descrição..">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Hugo Moreira">
+<style>
+.textarea1{
+    width: 704px;
+    height: 42px;
+}
+</style>
+  <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+<h1>Um formulário de demonstração</h1>
+
+<h3> Neste exemplo só queremos que uma opção fique selecionada: </h3>
+<form>
+    <div>
+        <input type="radio" name="Opcao"> 
+        Opção 1
+    </div>
+    <div>
+       <input type="radio" name="Opcao"> 
+        Opção 2 
+    </div>
+    <div>
+        <input type="radio" name="Opcao"> 
+        Opção 3 
+    </div>
+</form>
+<h3> Cores Preferidas </h3>
+<form>
+    <div>
+        <input type="checkbox" name="Azul"> 
+        Azul
+    </div>
+    <div>
+       <input type="checkbox" name="AzuleBranco"> 
+        Azul e Branco
+    </div>
+    <div>
+        <input type="checkbox" name="Cinzento"> 
+        Cinzento
+    </div>
+</form>
+<h3> Banda Preferida </h3>
+<input type="text" placeholder="Amália Rodrigues">
+
+<h3> Coloca a letra de uma música aqui </h3>
+<div>
+    <form>
+        <textarea class="textarea1" placeholder="Describe yourself here..."></textarea> 
+    </form>
+</div>
+<br>
+<div>
+<form>
+    <button name="Enviar" type="submit">
+        Enviar
+</form>
+</div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
